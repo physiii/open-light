@@ -1,0 +1,143 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 4650 1300 1250 950 
+U 5B1FFB7D
+F0 "power" 50
+F1 "power.sch" 50
+F2 "PG" I L 4650 1350 50 
+F3 "STAT" I L 4650 1450 50 
+F4 "5V" I L 4650 1550 50 
+F5 "BATTERY" I L 4650 1650 50 
+F6 "3v3" I L 4650 1750 50 
+F7 "SCL" I L 4650 1850 50 
+F8 "SDA" I L 4650 1950 50 
+$EndSheet
+$Sheet
+S 4650 2475 1225 900 
+U 5B1FFB9A
+F0 "microcontroller" 50
+F1 "microcontroller.sch" 50
+F2 "FACTORY" I L 4650 2575 50 
+F3 "EN_ESP" I L 4650 2675 50 
+F4 "PROG" I L 4650 2775 50 
+F5 "3V3" I L 4650 2875 50 
+F6 "SCL" I L 4650 2975 50 
+F7 "SDA" I L 4650 3075 50 
+F8 "EN_MAIN" I R 5875 2575 50 
+F9 "EN_AUDIO" I R 5875 2675 50 
+F10 "RXD" I R 5875 3000 50 
+F11 "TXD" I R 5875 3075 50 
+F12 "EN_DISPLAY" I R 5875 3275 50 
+$EndSheet
+$Sheet
+S 4650 4625 1225 900 
+U 5B1FFBB9
+F0 "Enviroment" 50
+F1 "Enviroment.sch" 50
+$EndSheet
+$Sheet
+S 4650 3550 1275 900 
+U 5B1FFBFD
+F0 "interface" 50
+F1 "interface.sch" 50
+F2 "FACTORY" I L 4650 3650 50 
+F3 "EN_ESP" I L 4650 3750 50 
+F4 "PROG" I L 4650 3850 50 
+F5 "3v3" I L 4650 3950 50 
+F6 "SCL" I L 4650 4050 50 
+F7 "5V" I L 4650 4400 50 
+F8 "TXD" I R 5925 3650 50 
+F9 "RXD" I R 5925 3750 50 
+F10 "SDA" I L 4650 4150 50 
+$EndSheet
+Text Label 4450 3075 0    50   ~ 0
+SDA
+Text Label 4450 2975 0    50   ~ 0
+SCL
+Text Label 4450 2875 0    50   ~ 0
+3V3
+Text Label 4450 2775 0    50   ~ 0
+PROG
+Text Label 4350 2675 0    50   ~ 0
+EN_ESP
+Text Label 4325 2575 0    50   ~ 0
+FACTORY
+Wire Wire Line
+	4650 2575 4325 2575
+Wire Wire Line
+	4350 2675 4650 2675
+Wire Wire Line
+	4650 2775 4450 2775
+Wire Wire Line
+	4450 2875 4650 2875
+Wire Wire Line
+	4650 2975 4450 2975
+Wire Wire Line
+	4450 3075 4650 3075
+Text Label 4450 1950 0    50   ~ 0
+SDA
+Text Label 4450 1850 0    50   ~ 0
+SCL
+Text Label 4450 1750 0    50   ~ 0
+3V3
+Wire Wire Line
+	4450 1750 4650 1750
+Wire Wire Line
+	4650 1850 4450 1850
+Wire Wire Line
+	4450 1950 4650 1950
+Text Label 4325 1650 0    50   ~ 0
+BATTERY
+Text Label 4525 1550 0    50   ~ 0
+5V
+Text Label 4450 1450 0    50   ~ 0
+STAT
+Text Label 4525 1350 0    50   ~ 0
+PG
+Wire Wire Line
+	4525 1550 4650 1550
+Wire Wire Line
+	4650 1650 4325 1650
+Text Label 4450 4150 0    50   ~ 0
+SDA
+Text Label 4450 4050 0    50   ~ 0
+SCL
+Text Label 4450 3950 0    50   ~ 0
+3V3
+Text Label 4450 3850 0    50   ~ 0
+PROG
+Text Label 4350 3750 0    50   ~ 0
+EN_ESP
+Text Label 4325 3650 0    50   ~ 0
+FACTORY
+Wire Wire Line
+	4650 3650 4325 3650
+Wire Wire Line
+	4350 3750 4650 3750
+Wire Wire Line
+	4650 3850 4450 3850
+Wire Wire Line
+	4450 3950 4650 3950
+Wire Wire Line
+	4650 4050 4450 4050
+Wire Wire Line
+	4450 4150 4650 4150
+Wire Wire Line
+	4450 1450 4650 1450
+Wire Wire Line
+	4525 1350 4650 1350
+$EndSCHEMATC
